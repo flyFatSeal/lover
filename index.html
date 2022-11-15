@@ -12,7 +12,7 @@
         height: 100%;
         padding: 0;
         margin: 0;
-        background: #fff;
+        background: black;
       }
       canvas {
         position: absolute;
@@ -34,7 +34,7 @@
           duration: 2, // particle duration in sec
           velocity: 100, // particle velocity in pixels/sec
           effect: -0.75, // play with this for a nice effect
-          size: 30, // particle size in pixels
+          size: 40, // particle size in pixels
         },
       };
 
@@ -356,7 +356,7 @@
             $elem.innerText = '❤';
             break;
         }
-        $elem.style.fontSize = Math.random() * 10 + 10 + 'px';
+        $elem.style.fontSize = Math.random() * 20 + 10 + 'px';
         var increase = 0;
         var anim;
         setTimeout(function () {
